@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1292343733 source:g:\documents and settings\jack farrelly\my documents\steamprofiles\main.cpp
+	<iostream>
+	<windows.h>
+	<direct.h>
+	<sys/stat.h>
+	<conio.h>
+	"includes/steam.h"
+	"includes/img.h"
+
+1292271089 g:\documents and settings\jack farrelly\my documents\steamprofiles\main.h
+
+1292285639 g:\documents and settings\jack farrelly\my documents\steamprofiles\steam.h
+
+1293825238 source:g:\documents and settings\jack farrelly\my documents\steamprofiles\resources.rc
+
+1292429501 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\img.h
+	<stdio.h>
+	<string.h>
+	<windows.h>
+
+1293822190 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\steam.h
+	"processes.h"
+
+1295376335 source:g:\documents and settings\jack farrelly\my documents\steamprofiles\steamprofiles.cpp
+	<iostream>
+	<windows.h>
+	<direct.h>
+	<sys/stat.h>
+	<conio.h>
+	"includes/sockets/socket.h"
+	"includes/xml/tinyxml.h"
+	"includes/console.hpp"
+	"includes/img.hpp"
+	"includes/txt.hpp"
+	"includes/steam.hpp"
+	"includes/xfire.hpp"
+
+1293819306 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\txt.h
+	<iostream>
+	<windows.h>
+
+1293199675 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\console.h
+	<vector>
+	<ctia.h>
+
+1293818960 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\processes.h
+	<windows.h>
+	<iostream>
+	<cstring>
+
+1294420211 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\sockets\socket.h
+	"WinSock2.h"
+
+1293817339 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\xml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1269296160 source:g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\xml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1269296160 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\xml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1269296160 source:g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\xml\tinystr.cpp
+	"tinystr.h"
+
+1269296160 source:g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\xml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1269296160 source:g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\xml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1294946037 source:g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\sockets\socket.cpp
+	"socket.h"
+	<iostream>
+
+1295375442 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\console.hpp
+	<vector>
+	<ctia.h>
+
+1295375500 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\img.hpp
+	<stdio.h>
+	<string.h>
+	<windows.h>
+
+1293822507 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\txt.hpp
+	<iostream>
+	<windows.h>
+
+1295387725 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\steam.hpp
+	"processes.hpp"
+
+1294250954 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\steamcommunity.hpp
+
+1295375868 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\processes.hpp
+	<windows.h>
+	<iostream>
+	<cstring>
+
+1295376319 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\xfire.hpp
+	"steam.hpp"
+

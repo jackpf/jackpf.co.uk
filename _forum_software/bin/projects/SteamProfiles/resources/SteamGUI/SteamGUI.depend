@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1295452383 source:g:\documents and settings\jack farrelly\my documents\steamprofiles\resources\steamgui\steamgui.cpp
+	"SteamGUI.hpp"
+
+1295453266 g:\documents and settings\jack farrelly\my documents\steamprofiles\resources\steamgui\steamgui.hpp
+	<iostream>
+	<windows.h>
+	<direct.h>
+	<sys\stat.h>
+	<conio.h>
+	"..\..\includes\sockets\socket.h"
+	"..\..\includes\xml\tinyxml.h"
+	"..\..\includes\console.hpp"
+	"..\..\includes\img.hpp"
+	"..\..\includes\txt.hpp"
+	"..\..\includes\steam.hpp"
+	"..\..\includes\xfire.hpp"
+	"..\..\includes\steam.hpp"
+
+1295452310 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\sockets\socket.h
+	"WinSock2.h"
+
+1295452317 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\xml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1295452318 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\xml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1295452309 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\console.hpp
+	<vector>
+	<ctia.h>
+
+1295452308 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\img.hpp
+	<stdio.h>
+	<string.h>
+	<windows.h>
+
+1295452303 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\txt.hpp
+	<iostream>
+	<windows.h>
+
+1295452306 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\steam.hpp
+	"processes.hpp"
+
+1295452307 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\processes.hpp
+	<windows.h>
+	<iostream>
+	<cstring>
+
+1295452302 g:\documents and settings\jack farrelly\my documents\steamprofiles\includes\xfire.hpp
+	"steam.hpp"
+

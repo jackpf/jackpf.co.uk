@@ -1,0 +1,13 @@
+ventrilo
+{
+	cache	"1307414843"
+	expire	"1307414903"
+	query_server	"a:15:{s:4:\"name\";s:20:\"Jackpf's Vent Server\";s:8:\"phonetic\";s:20:\"Jackpf's Vent Server\";s:7:\"comment\";s:0:\"\";s:4:\"auth\";s:1:\"0\";s:10:\"maxclients\";s:2:\"10\";s:10:\"voicecodec\";s:10:\"0,GSM 6.10\";s:11:\"voiceformat\";s:18:\"1,11 KHz%2C 16 bit\";s:6:\"uptime\";s:5:\"68534\";s:8:\"platform\";s:5:\"WIN32\";s:7:\"version\";s:5:\"3.0.6\";s:12:\"channelcount\";s:1:\"4\";s:13:\"channelfields\";s:22:\"CID,PID,PROT,NAME,COMM\";s:7:\"channel\";a:4:{i:0;s:37:\"CID=27,PID=0,PROT=0,NAME=Lounge,COMM=\";i:1;s:37:\"CID=28,PID=0,PROT=0,NAME=Gaming,COMM=\";i:2;s:39:\"CID=29,PID=27,PROT=0,NAME=General,COMM=\";i:3;s:35:\"CID=31,PID=28,PROT=0,NAME=L4D,COMM=\";}s:11:\"clientcount\";s:1:\"0\";s:0:\"\";N;}"
+	query_server2	"a:5:{s:9:\"gq_online\";b:0;s:10:\"gq_address\";s:13:\"195.90.99.195\";s:7:\"gq_port\";s:5:\"58971\";s:7:\"gq_prot\";s:8:\"ventrilo\";s:7:\"gq_type\";s:8:\"ventrilo\";}"
+}
+gameserver
+{
+	cache	"1307150629"
+	expire	"1307150689"
+	query_server	"a:3:{s:7:\"players\";a:0:{}s:5:\"cvars\";a:0:{}s:9:\"_gamename\";N;}"
+}

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1294249438 source:g:\documents and settings\jack farrelly\my documents\steam\steam.cpp
+	"steam.hpp"
+	<iostream>
+
+1294249438 g:\documents and settings\jack farrelly\my documents\steam\steam.hpp
+	<windows.h>
+
+1295452362 source:g:\documents and settings\jack farrelly\my documents\steamprofiles\resources\steam\steam.cpp
+	"Steam.hpp"
+
+1295452362 g:\documents and settings\jack farrelly\my documents\steamprofiles\resources\steam\steam.hpp
+	<windows.h>
+	<iostream>
+

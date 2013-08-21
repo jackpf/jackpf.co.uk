@@ -1,0 +1,72 @@
+﻿"Phrases"
+{
+	"Client - Using Incorrect Interp"
+	{
+		"#format"	"{1:f},{2:f}"
+		"en"		"You have been kicked for using incorrect interp values. Max {1}, min {2}"
+	}
+
+	"Server - Client Using Incorrect Interp"
+	{
+		"#format"	"{1:s},{2:f},{3:f},{4:f}"
+		"en"		"Kicked {1} for using incorrect interp values. Used {2} while max is {3} and min is {4}."
+	}
+
+	"Client - Corrupt"
+	{
+		"en"		"Your client has become corrupted. Please restart your game before reconnecting"
+	}
+
+	"Client - Remove Plugins"
+	{
+		"en"		"Please remove any third party plugins from your client before joining this server again"
+	}
+
+	"Client - Failed To Auth"
+	{
+		"en"		"Your client has failed to authenticate in time. Please reconnect or restart your game"
+	}
+
+	"Client - Failed To Reply"
+	{
+		"en"		"Your client has failed to reply to a query in time. Please reconnect or restart your game"
+	}
+
+	"Client - Cant Play With DirectX Lower Than 8"
+	{
+		"en"		"You can't play with a DirectX version less than 8 on this server"
+	}
+
+	"Client - Enable HDR Lightning"
+	{
+		"en"		"Please enable HDR Lightning then reconnect"
+	}
+
+	"Client - Name Change Too Often"
+	{
+		"en"		"You've been kicked for changing your name too often"
+	}
+
+	"Client - Kicked For Having Cvar"
+	{
+		"#format"	"{1:s}"
+		"en"		"Kicked for having {1} cvar on your client"
+	}
+
+	"Client - Banned"
+	{
+		"en"		"You have been banned for a cheating infraction"
+	}
+
+	"Server - Banned Client"
+	{
+		"#format"	"{1:s}"
+		"en"		"Banned {1} for a cheating infraction."
+	}
+
+	"Server - Ban Reason - Cvar Violation"
+	{
+		"#format"	"{1:s}"
+		"en"		"ConVar {1} violation"
+	}
+}

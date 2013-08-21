@@ -1,0 +1,1 @@
+./srcds_run -game dod +maxplayers 32 +map dod_avalanche +ip 85.234.148.33 -port 27035 -tickrate 100 +tv_port 27036 +bot_join_after_player 1 +exec server.cfg -NoQueuedPacketThread& > /dev/null 2>&1

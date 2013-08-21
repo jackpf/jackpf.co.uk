@@ -1,0 +1,3 @@
+EXPORTS
+    GetProfiles @1
+    RunSteamProfile @2

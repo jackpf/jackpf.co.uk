@@ -1,0 +1,2 @@
+cd l4d
+./srcds_run -game left4dead +maxplayers 18 +map l4d_hospital01_apartment +ip 85.234.148.33 -port 27035 -tickrate 30 +tv_port 27036 -autoupdate +exec server.cfg&  > /dev/null 2>&1

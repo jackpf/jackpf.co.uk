@@ -1,0 +1,278 @@
+html, body
+{
+	height: 100%;
+	margin: 0;
+}
+body
+{
+	background: #4A4A4A url(./img/background.png) repeat-x;
+	text-align: center;
+	font: 100% verdana, arial, helvetica, sans-serif;
+	font-size: 0.7em;
+	color: black;
+	cursor: default;
+}
+div.shell
+{
+	width: 97.5%;
+	min-width: 850px; /*for restoring-down & low resolutions*/
+	min-height: 99.7%; /*0.3% made up by border*/
+	height: auto;
+	background-color: white;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin: 0 auto;
+	position: relative;
+}
+div.header
+{
+	width: 100%;
+	z-index: 1;
+	position: static;
+	height: 70px;
+	background: black url(./img/logo.png) no-repeat;
+	border-bottom: 1px solid black;
+}
+div.main
+{
+	width: 95%;
+	padding-top: 50px;
+	margin-bottom: 5px;
+	position: relative;
+	margin: 0 auto;
+}
+div.title
+{
+	top: 0;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 2em;
+	position: absolute;
+}
+ul,ol
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul.header
+{
+	width: 100%;
+	clear: both;
+	overflow: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: url(./img/logo2.png) no-repeat 90%;
+}
+ul.header li
+{
+	padding-top: 1.5%;
+	float: left;
+	width: 10%;
+	font-size: 1.3em;
+}
+ul.header li.site_header
+{
+	text-align: left;
+	font-size: 1.9em;
+	width: 40% !important;
+	padding: 0 0 0.5% !important;
+	color: #F0FFFF;
+}
+ul.header li.site_header div#alias
+{
+	color: #E0EEEE;
+	font-size: 0.5em;
+	text-align: left;
+	padding-left: 10%;
+}
+ul.header li#footer
+{
+	margin-top: 0.25em;
+	color: black;
+	font-size: 1em;
+	color: white;
+}
+ul.header li#footer a
+{
+	color: #668B8B;
+}
+ul.header li a
+{
+	color: #666666;
+}
+ul.header li a:hover
+{
+	color: #790000;
+}
+div._footer
+{
+	clear: both;
+	height: 30px;
+}
+div.footer
+{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background: #4A4A4A url(./img/footer.png) repeat-x;
+	border-top: 1px solid #AAA;
+	color: white;
+}
+div.footer p
+{
+	padding: 2.5px 5px 5px;
+	margin: 0;
+	text-align: left;
+	font-size: 0.9em;
+}
+
+a{color: black; text-decoration: none;}
+a:hover{color: #6495ED;}
+img{border: 0;}
+span.header-active, a.header-active
+{
+	color: #8B0000;
+}
+span.mod
+{
+	font-size: 0.9em;
+	border: 1px solid #262626;
+}
+span.mod_full
+{
+	color: #828282;
+	font-size: 0.9em;
+}
+span.mod_full_2
+{
+	color: #111111;
+}
+textarea.post, iframe.post
+{
+	width: 600px;
+	height: 225px;
+}
+input[type="text"].post
+{
+	width: 450px;
+}
+input[type="submit"].post, input[type="button"].post
+{
+	border: 1px solid black;
+	background-color: #ECF1EF;
+	width: 100px;
+	cursor: pointer;
+}
+input[type="submit"]:hover.post, input[type="button"]:hover.post
+{
+	border: 1px solid blue;
+}
+input[type="submit"]:active.post, input[type="button"]:active.post
+{
+	border: 1px solid #00BFFF;
+}
+input, textarea, iframe.post
+{
+	border: 1px solid black;
+}
+input[type="text"]:hover, input[type="text"]:focus, input[type="password"]:hover, input[type="password"]:focus, textarea:hover, textarea:focus, iframe.post:hover, iframe.post:focus
+{
+	border: 1px solid #115098;
+}
+*.control
+{
+	color: #0D0D0D;
+}
+div.action
+{
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+*.box, div#options
+{
+	border: 1px solid black;
+	padding: 2.5px;
+	text-align: left;
+	-moz-border-radius: 10px;
+	-kthml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	position: relative;
+	margin: 0 auto;
+	clear: both;
+	overflow: auto;
+}
+div#options div#options_header
+{
+	border-bottom: 1px solid #CADCEB;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+div#options input
+{
+	margin-left: 0;
+}
+div#ajax
+{
+	text-align: left;
+	margin-top: 20px;
+}
+
+img.alias_mod_picture
+{
+	max-width: 78.125px;
+	max-height: 62.5px;
+}
+
+dl
+{
+	text-align: left;
+	margin: 0 auto;
+	display: block;
+	clear: both;
+	overflow:auto;
+}
+dt
+{
+	display: block;
+	float: left;
+	height: 20px;
+	padding-top: 1.5px;
+	width: 150px;
+	clear: both;
+}
+dd
+{
+	display: block;
+}
+dl.justify
+{
+	width: 25%;
+}
+dl.justify dt
+{
+	width: auto;
+}
+dl.justify dd
+{
+	float: right;
+}
+a.permission
+{
+	height: 17px;
+	width: 55px;
+	display: block;
+	float: left;
+	background: url(./img/permission.gif) no-repeat;
+	text-align: center;
+	padding-top: 3px;
+	margin-right: 10px;
+	color: #BC2A4D;
+}
+a.permission:hover
+{
+	background-position: 0 -21px;
+}

@@ -1,0 +1,152 @@
+table.profile
+{
+	font-size: 1.3em;
+}
+div.p_alias
+{
+	float: left;
+}
+div.p_alias_1
+{
+	width: 75%;
+}
+div.p_alias_2
+{
+	width: 22%;
+	margin-top: 3%;
+	padding-left: 2%;
+	margin-left: 0.5%;
+	height: 250px;
+	border-left: 1px solid #ECF1EF;
+}
+img.p_picture
+{
+	max-width: 160px;
+	max-height: 120px;
+}
+div.p_picture
+{
+	width: 160px;
+	height: 120px;
+}
+div.p_profile
+{
+	text-align: left;
+	padding-top: 20px;
+}
+div.p_profile div.profile_main
+{
+	position: relative;
+}
+div.p_profile div.profile_main2
+{
+	padding-top: 25px;
+	text-align: center;
+}
+ul.p_profile_header
+{
+	left: 0;
+	text-align: left;
+	position: absolute;
+	padding-right: 10px;
+	border-right: 1px solid green;
+}
+div.p_profile_left
+{
+	float: left;
+}
+div.p_profile_right
+{
+	float: right;
+}
+table.message td
+{
+	vertical-align: top;
+	padding: 5px 0;
+}
+table.message td.author
+{
+	width: 12.5%;
+}
+table.message thead td
+{
+	font-size: 1.3em;
+	border-bottom: 1px solid grey;
+}
+table.message thead td.message_main, table.message tbody td.message_main
+{
+	width: 75%;
+}
+table.message tbody td.message_main
+{
+	text-align: left;
+	padding: 10px 15px;
+	border-bottom: 1px solid #AA98AC;
+}
+table.message tbody td.email_main
+{
+	text-align: center;
+	padding: 5px 0;
+	border-bottom: 1px solid #AA98AC;
+}
+table.message tbody td.email_main div.email_subject
+{
+	position: relative;
+}
+table.message tbody td.email_main div.email_subject input[type="checkbox"]
+{
+	display: block;
+	left: 0;
+	top: -2.5px;
+	position: absolute;
+}
+table.email_header td
+{
+	width: 20%;
+}
+table.email
+{
+	margin-top: 10px;
+}
+table.email td
+{
+	vertical-align: top;
+	text-align: left;
+	padding-bottom: 10px;
+}
+table.email td.email
+{
+	text-align: left;
+	width: 95%;
+	padding-left: 10px;
+}
+a.email_subject
+{
+	display: block;
+	background: url(./img/email.png) no-repeat;
+}
+a.unread
+{
+	background-position: right -2px;
+}
+a.read, a.unread:hover
+{
+	background-position: right -22px;
+}
+a.replied
+{
+	background-position: right -42px;
+}
+/*f_header2 hack*/
+div.p_profile div.f_header, div.p_profile div.f_header2
+{
+	top: 10px !important;
+}
+div.p_alias div.f_header2
+{
+	top: 0 !important;
+}
+div.f_header div.box
+{
+	z-index: 1;
+}

@@ -1,0 +1,3 @@
+EXPORTS
+    GetFriendID @1
+    GetSteamID @2

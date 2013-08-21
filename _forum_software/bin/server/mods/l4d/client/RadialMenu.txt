@@ -1,0 +1,383 @@
+"RadialMenu"
+{
+	//--------------------------------------------------------------
+	"LulMenu,Survivor,Alive"//all characters
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerDeath"
+			"text"		"AAAAAAH"//Dying Sounds
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerWarnWitch"
+			"text"		"WITCH!"//Player warns witch
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerWarnTank"
+			"text"		"Tank!"//Player warns about tank
+		}	
+		"East"
+		{
+			"command"	"vocalize PlayerWarnBoomer"
+			"text"		"Boomer!"//Player warns about boomer
+		}	
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerWarnSmoker"
+			"text"		"Smoker!"//Player warns about smoker
+		}	
+		"South"
+		{
+			"command"	"vocalize PlayerWarnHunter"
+			"text"		"Hunter!"//player warns about hunter
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerChoke"
+			"text"		"Gag"//Player gets choked
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerTonguePullStart"
+			"text"		"OH NO!"//Player starts to get pulled, so they scream, say oh no.
+		}	
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerLedgeHangEnd"
+			"text"		"HELP!"//I can't hold on much longer!
+		}	
+	}
+	//--------------------------------------------------------------
+	"Lulmenu2,Survivor,Alive"//All characters besides the elevator.
+	{
+		"Center"
+		{
+			"command"	"vocalize elevator_conversation"
+			"text"		"Elevator lulz"//Only for Zoey and Francis, still funny.
+		}
+		"North"
+		{
+			"command"	"vocalize ResponseSoftDispleasureSwear"
+			"text"		"Displeasure"//Cuss word
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize EmphaticArriveRun"
+			"text"		"Run"//RRRUUUUNNNN!!!!!
+		}
+		"East"
+		{
+			"command"	"vocalize PlayerIncoming"
+			"text"		"Incoming!"//Here they come!
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerSpotPills"
+			"text"		"PEELZ"//Can anybody here us?
+		}
+		"South"
+		{
+			"command"	"vocalize PlayerIncapacitated"
+			"text"		"Incapacitated!"//Help im down!!!
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize AskForHealth2"
+			"text"		"MedKit"//Lights off!
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerHurrah"
+			"text"		"Hurrah!"//Hurrah!
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize EatPills"
+			"text"		"Mmmm"//I got you buddy.
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Orders,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"label"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"QA,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Alerts,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Lulmenulouis,Survivor,Alive"//Louis' funniest sayings
+	{
+		"Center"
+		{
+			"command"	"vocalize ConceptBlock659"
+			"text"		"Unstoppables"//Louis says we should call ourselves the unstoppables!
+		}
+		"North"
+		{
+			"command"	"vocalize hospital04_path02a"
+			"text"		"Stairs"//Louis says stairs are good excersise.
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize ResponseSoftDispleasureSwear"
+			"text"		"Country Ass"//Louis swears, or says that's some country ass bullshit.
+		}
+		"East"
+		{
+			"command"	"vocalize ConceptBlock019"
+			"text"		"Mister"//Mister, if any of us dies, im going go come in there and beat you with my gun.
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize ConceptBlock645"
+			"text"		"Don't wanna Die"//Louis talks about not dying
+		}
+		"South"
+		{
+			"command"	"vocalize VampiresBeata"
+			"text"		"Not Vamps!!"//He corrects francis saying something about vampires.
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize smalltown02_path01b"
+			"text"		"Story Time!"//True story, in bla bla bla
+		}
+		"West"
+		{
+			"command"	"vocalize Smalltown04_path07A"
+			"text"		"Nice Town!"//Besides the Crazy guys and zombies, nice town.
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize ConceptBlock610"
+			"text"		"Humanity"//Humanity bounce back, just watch.
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Lulmenuzoey,Survivor,Alive"//Only for Zoey
+	{
+		"Center"
+		{
+			"command"	"vocalize Airport04_08c"
+			"text"		"Spreading"//Must've stopped trying to spread infection, bill says christ allmighty
+		}
+		"North"
+		{
+			"command"	"vocalize BounceReaction"
+			"text"		"Ready to Bounce"//Im ready to bounce
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize ConceptBlock037"
+			"text"		"Dick"//What a dick!
+		}
+		"East"
+		{
+			"command"	"vocalize IntroFarm4"
+			"text"		"Let's do it"//Works with Bill, not sure about others
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize ConceptBlock620"
+			"text"		"Optimist"//Your an optimist louis, i'll give you that.
+		}
+		"South"
+		{
+			"command"	"vocalize ConceptBlock661"
+			"text"		"Hearty Laugh"//Laughter
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize ConceptBlock032"
+			"text"		"Open the Door!"//Open this door!
+		}
+		"West"
+		{
+			"command"	"vocalize ConceptBlock647"
+			"text"		"Game Over"//Game over man...game over..
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize ConceptBlock657"
+			"text"		"Laugh"
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Lulmenubill,Survivor,Alive"//Only for Bill
+	{
+		"Center"
+		{
+			"command"	"vocalize ConceptBlock608"
+			"text"		"Francis Diss"//About 6 Phrases dissing francis
+		}
+		"North"
+		{
+			"command"	"vocalize DontBeAnAss"
+			"text"		"Don't be an Ass"//Don't be an ass
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize ConceptBlock639"
+			"text"		"Peace on Earth"//I'll see peace back in this earth if...
+		}
+		"East"
+		{
+			"command"	"vocalize ConceptBlock696"
+			"text"		"Zombies"//There Zombies francis!
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize ConceptBlock663"
+			"text"		"Who-ho-ho"//Exactly.
+		}
+		"South"
+		{
+			"command"	"vocalize ConceptBlock611"
+			"text"		"War"//War of Attrition
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize Airport04_08a"
+			"text"		"Leaving!"//Tried to stop people from leaving
+		}
+		"West"
+		{
+			"command"	"vocalize Hospital04_path01a"
+			"text"		"Worse"//I've smelled worse
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize ConceptBlock715"
+			"text"		"Laugh"
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Lulmenufrancis,Survivor,Alive"//He has 2 menus, because he's a talker.
+	{
+		"Center"
+		{
+			"command"	"vocalize ConceptBlock009"
+			"text"		"Im Francis"//Im francis, this is grandpa bill...
+		}
+		"North"
+		{
+			"command"	"vocalize ConceptBlock040"
+			"text"		"Candy Pants"//Listen candy pants
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize ConceptBlock607"
+			"text"		"Zombie Beard!"//What if only your beard starts to turn...
+		}
+		"East"
+		{
+			"command"	"vocalize ConceptBlock627"
+			"text"		"Professor"//What? Vampires Francis. Whatever professor
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize Smalltown02_path01a"
+			"text"		"How?"//How the hell do you know that?
+		}
+		"South"
+		{
+			"command"	"vocalize ConceptBlock635"
+			"text"		"Handsome"//I'll still be really handsome
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize ConceptBlock721"
+			"text"		"Go to Hell"//Hahaha, go to hell!
+		}
+		"West"
+		{
+			"command"	"vocalize ConceptBlock712"
+			"text"		"But Vests"//I hate everything but vests.
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize ConceptBlock527"
+			"text"		"Boat Owner"//Attention boat owner, this is the police, pick us up now!
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Lulmenufrancishate,Survivor,Alive"//Second menu, with all the hate ones
+	{
+		"Center"
+		{
+			"command"	"vocalize airport04_vana"
+			"text"		"Vans"//I hate vans
+		}
+		"North"
+		{
+			"command"	"vocalize IntroHospital02"
+			"text"		"Subway"//I hate the subway
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize Smalltown05_path03a"
+			"text"		"Water"//I hate the water
+		}
+		"East"
+		{
+			"command"	"vocalize IntroAirport01bc"
+			"text"		"Planes"//I hate planes
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize AynRandResponse"
+			"text"		"Ayn Rand"//I hate Ayn Rand
+		}
+		"South"
+		{
+			"command"	"vocalize Airport04_08a"
+			"text"		"I said it!"//I was the one who said that
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize Smalltown04_path05a"
+			"text"		"Keep your Beard on"//Keep your beard on, im coming
+		}
+		"West"
+		{
+			"command"	"vocalize ConceptBlock632"
+			"text"		"Do anything"//People will do anything cops tell them to
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize ConceptBlock023"
+			"text"		"We're Cops!"//We're cops, open the door
+		}
+	}
+	
+	//--------------------------------------------------------------
+}

@@ -1,0 +1,101 @@
+<!--[if IE]>
+	<style type="text/css">
+		/*<![CDATA[*/
+			/**
+			 *XHTML password input fix
+			 */
+			input[type="password"]
+			{
+				width: 149px !important;
+			}
+			/**
+			 *collspacing fix
+			 */
+			table
+			{
+				border-collapse: collapse !important;
+			}
+			/**
+			 *form margin/padding fix
+			 */
+			form
+			{
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+			/**
+			 *textarea scrollbar fix
+			 */
+			textarea
+			{
+				overflow: auto !important;
+			}
+			/**
+			 *table/td border overlap fix
+			 */
+			table.forum tbody td
+			{
+				border-bottom: 0 !important;
+			}
+			/**
+			 *[] selector fix: remove checkbox & radio input border
+			 */
+			input[type="checkbox"], input[type="radio"]
+			{
+				border: 0 !important;
+			}
+		/*]]>*/
+	</style>
+<![endif]-->
+<!--[if lte IE 7]>
+	<style type="text/css">
+		/*<![CDATA[*/
+			/**
+			 *absolute positioning fix
+			 */
+			html, body
+			{
+				overflow-x: hidden !important;
+			}
+			/**
+			 *title absolute positioning fix
+			 */
+			div.title
+			{
+				position: relative !important;
+				top: -50px !important;
+				margin-bottom: -25px !important;
+			}
+			/**
+			 *header padding fix
+			 */
+			ul.header li
+			{
+				padding-top: 1.6% !important;
+				width: 9.9% !important;
+			}
+			/**
+			 *dl float clear fix
+			 */
+			dl.justify dd
+			{
+				clear: both !important;
+			}
+			/**
+			 *p margin/padding fix
+			 */
+			p
+			{
+				margin: 0 !important;
+				_padding: 0 !important;
+			}
+			/**
+			 *box overflow fix
+			 */
+			.box
+			{
+				overflow:hidden !important;
+			}
+		/*]]>*/
+	</style>
+<![endif]-->

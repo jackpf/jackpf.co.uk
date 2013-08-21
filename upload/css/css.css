@@ -1,0 +1,53 @@
+body
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+}.main{	position: relative;}
+h1
+{
+	text-decoration: underline;
+	font-size: 25px;
+}
+.jackpf
+{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	font-style: italic;
+	text-align: right;
+}
+.login
+{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	font-style: italic;
+}
+a
+{
+	color: green;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+table
+{
+	height: 100%;
+	width: 75%;
+	margin: 0 auto;
+}
+table td
+{
+	text-align: left;
+}
+table td.file
+{
+	width: 70%;
+}
+img
+{
+	border: 0;
+}

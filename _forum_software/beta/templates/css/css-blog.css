@@ -1,0 +1,197 @@
+/*remove main padding*/
+div.main
+{
+	padding-top: 0;
+}
+div.h_title
+{
+	font-size: 1.2em;
+	text-align: center;
+	padding-top: 1.5%;
+	width: 20%;
+	float: left;
+}
+div.header-side
+{
+	width: 15%;
+	float: left;
+	padding-top: 15px;
+}
+div.header-side-right
+{
+	float: right;
+}
+ul.header-side
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+ul.header-side li
+{
+	padding: 5px;
+	border-bottom: 1px solid #404040;
+	color: #333333;
+	text-align: left;
+}
+ul.header-side li div.archive-subject
+{
+	text-align: left;
+	float: left;
+	width: 75%;
+}
+ul.header-side li div.archive-entry_count
+{
+	text-align: left;
+	_float: right;
+}
+li.title, li.legacy
+{
+	text-align: center !important;
+	font-size: 0.8em;
+}
+li.title
+{
+	font-size: 1.5em;
+}
+div.header-side-right ul.header-side li
+{
+	text-align: center !important;
+}
+div#archive
+{
+	text-align: left;
+}
+form#search input[type="text"]
+{
+	width: 90%;
+	color: blue;
+}
+ul.header-side li.subscribe
+{
+	text-align: center !important;
+}
+div.blog_main
+{
+	width: 65%;
+	margin: 0 2.5%;
+	float: left;
+	padding-top: 10px;
+	text-align: justify;
+	position: relative;
+}
+div#comment
+{
+	text-align: center;
+	top: 0;
+	position: absolute;
+}
+div.textarea_drag
+{
+	height: 10px;
+	border-top: 1px dotted blue;
+	width: 600px;
+	cursor: s-resize;
+	margin: 0 auto;
+}
+div.comment_drag
+{
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	cursor: move;
+}
+div.b_header
+{
+	float: left;
+}
+div.b_header2
+{
+	float: right;
+	text-align: right;
+	font-style: italic;
+}
+div.entry_shell
+{
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	clear: both;
+}
+div.entry_h
+{
+	width: 100%;
+}
+span.entry_subject, a.entry_subject
+{
+	font-size: 1.5em;
+	text-decoration: underline;
+	color: #838B8B;
+}
+a.entry_subject:hover
+{
+	color: #8B8378;
+}
+span.entry_info, a.entry_info
+{
+	color: gray;
+}
+div.entry_body
+{
+	padding: 10px 0;
+	width: 100%;
+}
+div.entry_f
+{
+	width: 100%;
+	text-align: right;
+	padding-bottom: 5px;
+	border-bottom: 1px #BFBFBF solid;
+}
+div.entry_comment_shell
+{
+	clear: both;
+	padding: 4px;
+	border: 1px #C1CDCD solid;
+	margin-bottom: 5px;
+}
+div.modulo
+{
+	background-color: #CCFFFF;
+}
+span.subject
+{
+	font-size: 1.25em;
+	text-decoration: underline;
+}
+a#comments
+{
+	font-size: 1.25em;
+	text-decoration: underline;
+	padding-bottom: 10px;
+	float: left;
+}
+div#comments_page
+{
+	float: right;
+	padding-top: 0.25em;
+}
+div.entry_control
+{
+	margin-left: 10px;
+	padding-top: 5px;
+	float: right;
+	text-align: right;
+	position: relative;
+	font-style: italic;
+}
+*.center
+{
+	text-align: center;
+	clear: both;
+}
+dl.justify
+{
+	width: 40%;
+}

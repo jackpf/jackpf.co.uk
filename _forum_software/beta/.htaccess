@@ -1,0 +1,88 @@
+#apache config
+Options +FollowSymlinks
+RewriteEngine on
+#Options Indexes
+IndexOptions FancyIndexing FoldersFirst SuppressDescription
+
+#global php.ini file
+#$config_init->get_config('document_root');
+suPHP_ConfigPath config
+
+#redirect 404 error codes
+#ErrorDocument 404 /beta/index.php?action=404
+
+#remove www prefix
+RewriteCond %{HTTP_HOST} ^www.jackpf.co.uk [NC]
+RewriteRule ^(.*)$ http://jackpf.co.uk/$1 [R=301,L]
+
+#deny access to files
+<Files ~ "\.(cfg|ini|sql)$">
+	deny from all
+</Files>
+
+
+#mod_rewrites
+RewriteRule ^login$ index.php?action=login
+RewriteRule ^logout$ index.php?action=login&status=logout
+RewriteRule ^register$ index.php?action=register
+RewriteRule ^blog$ index.php?action=blog
+RewriteRule ^profile$ index.php?action=profile
+RewriteRule ^forum$ index.php?action=forum
+
+#profile
+RewriteRule ^profile_self$ index.php?action=profile&status=profile_self&profile=index
+RewriteRule ^profile_self/message$ index.php?action=profile&status=profile_self&profile=message
+RewriteRule ^profile_self/message/message_delete=(.*?)$ index.php?action=profile&status=profile_self&profile=message&message_delete=$1
+RewriteRule ^profile_self/email$ index.php?action=profile&status=profile_self&profile=email
+RewriteRule ^profile_self/email/email_read=(.*?)$ index.php?action=profile&status=profile_self&profile=email&email_read=$1
+RewriteRule ^profile_self/email/email_delete=(.*?)$ index.php?action=profile&status=profile_self&profile=email&email_read=$1
+RewriteRule ^profile_self/email/email_unread=(.*?)$ index.php?action=profile&status=profile_self&profile=email&email_read=$1
+RewriteRule ^profile_self/profile$ index.php?action=profile&status=profile_self&profile=profile&account=profile
+RewriteRule ^profile_self/account$ index.php?action=profile&status=profile_self&profile=profile&account=account
+RewriteRule ^profile_self/update/(.*?)$ index.php?action=profile&status=profile_self&profile=upadate&update=$1
+
+RewriteRule ^profile/([^/]+)$ index.php?action=profile&status=profile&profile=index&alias=$1
+RewriteRule ^profile/(.*?)/message$ index.php?action=profile&status=profile&profile=message&alias=$1
+RewriteRule ^profile/(.*?)/message/send$ index.php?action=profile&status=profile&profile=message&message_send=1&alias=$1
+RewriteRule ^profile/(.*?)/message/message_delete=(.*?)$ index.php?action=profile&status=profile&profile=message&message_delete=$2&alias=$1
+RewriteRule ^profile/(.*?)/message/message_edit=(.*?)$ index.php?action=profile&status=profile&profile=message&message_edit=$2&alias=$1
+RewriteRule ^profile/(.*?)/email$ index.php?action=profile&status=profile&profile=email&alias=$1
+RewriteRule ^profile/(.*?)/email/send$ index.php?action=profile&status=profile&profile=email&email_send=1&alias=$1
+
+#forum
+RewriteRule ^forum/([0-9]+)$ index.php?action=forum&forum=$1
+RewriteRule ^forum/([0-9]+)/([0-9]+)$ index.php?action=forum&forum=$1&status=thread&thread=$2
+RewriteRule ^forum/post$ index.php?action=forum&status=post
+RewriteRule ^forum/([0-9]+)/post$ index.php?action=forum&forum=$1&status=post
+RewriteRule ^forum/([0-9]+)/edit$ index.php?action=forum&forum=$1&status=forum_edit
+RewriteRule ^forum/([0-9]+)/([0-9]+)/edit$ index.php?action=forum&forum=$1&status=thread_edit&thread=$2
+RewriteRule ^forum/([0-9]+)/([0-9]+)/([0-9]+)/edit$ index.php?action=forum&forum=$1&status=post_edit&thread=$2&post=$3
+RewriteRule ^forum/([0-9]+)/permission$ index.php?action=forum&forum=$1&status=forum_permission
+RewriteRule ^forum/([0-9]+)/([0-9]+)/permission$ index.php?action=forum&forum=$1&status=thread_permission&thread=$2
+RewriteRule ^forum/([0-9]+)/([0-9]+)/([0-9]+)/permission$ index.php?action=forum&forum=$1&status=post_permission&thread=$2&post=$3
+RewriteRule ^forum/([0-9]+)/([0-9]+)/post$ index.php?action=forum&forum=$1&thread=$2&status=post
+RewriteRule ^forum/([0-9]+)/delete$ index.php?action=forum&forum=$1&status=forum_delete
+RewriteRule ^forum/([0-9]+)/([0-9]+)/close$ index.php?action=forum&forum=$1&status=thread_delete&thread=$2
+RewriteRule ^forum/([0-9]+)/([0-9]+)/([0-9]+)/delete$ index.php?action=forum&forum=$1&status=post_delete&thread=$2&post=$3
+RewriteRule ^forum/([0-9]+)/([0-9]+)/open$ index.php?action=forum&forum=$1&status=thread_open&thread=$1
+RewriteRule ^forum/([0-9]+)/subscribe$ index.php?action=forum&forum=$1&status=subscribe
+RewriteRule ^forum/([0-9]+)/([0-9]+)/subscribe$ index.php?action=forum&forum=$1&status=subscribe&thread=$2
+
+#blog
+RewriteRule ^blog/([a-z]+)\=(.*?)$ index.php?action=blog&$1=$2
+RewriteRule ^blog/subscribe$ index.php?action=blog&status=subscribe
+
+RewriteRule ^blog/((.*?))/comment$ index.php?action=blog&status=comment&entry=$1
+RewriteRule ^blog/((.*?))/subscribe$ index.php?action=blog&status=subscribe&entry=$1
+
+RewriteRule ^blog/((.*?))/edit_comment$ index.php?action=blog&status=edit_comment&entry=$1
+RewriteRule ^blog/((.*?))/delete_comment$ index.php?action=blog&status=delete_comment&entry=$1
+
+RewriteRule ^blog/entry$ index.php?action=blog&status=entry
+
+RewriteRule ^blog/((.*?))/permission$ index.php?action=blog&status=permission&entry=$1
+RewriteRule ^blog/((.*?))/delete$ index.php?action=blog&status=delete&entry=$1
+RewriteRule ^blog/((.*?))/edit$ index.php?action=blog&status=edit&entry=$1
+
+RewriteRule ^blog/([0-9a-zA-Z-_\%]+)/(.*?)\=(.*?)$ index.php?action=blog&status=view_entry&entry=$1&$2=$3
+RewriteRule ^blog/([0-9a-zA-Z-_\%]+)$ index.php?action=blog&status=view_entry&entry=$1

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="SteamProfiles.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="58" topLine="18" />
+	</File>
+	<File name="SteamProfiles.ini" open="0" top="0" tabpos="1">
+		<Cursor position="568" topLine="0" />
+	</File>
+	<File name="includes\console.hpp" open="0" top="0" tabpos="1">
+		<Cursor position="2213" topLine="70" />
+	</File>
+	<File name="includes\img.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2367" topLine="65" />
+	</File>
+	<File name="includes\processes.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="6367" topLine="168" />
+	</File>
+	<File name="includes\sockets\socket.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="1566" topLine="56" />
+	</File>
+	<File name="includes\sockets\socket.h" open="0" top="0" tabpos="5">
+		<Cursor position="75" topLine="0" />
+	</File>
+	<File name="includes\steam.hpp" open="1" top="0" tabpos="3">
+		<Cursor position="4639" topLine="103" />
+	</File>
+	<File name="includes\steamcommunity.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="1002" topLine="22" />
+	</File>
+	<File name="includes\systemtray.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="includes\txt.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="665" topLine="8" />
+	</File>
+	<File name="includes\xfire.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="944" topLine="12" />
+	</File>
+	<File name="includes\xml\tinyxml.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2314" topLine="73" />
+	</File>
+	<File name="ini.php" open="0" top="0" tabpos="8">
+		<Cursor position="2536" topLine="61" />
+	</File>
+	<File name="resources.rc" open="0" top="0" tabpos="7">
+		<Cursor position="54" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

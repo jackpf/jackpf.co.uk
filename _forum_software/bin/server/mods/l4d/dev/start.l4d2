@@ -1,0 +1,4 @@
+cd left4dead2
+./srcds_run -game left4dead2 +maxplayers 18 +map c5m1_waterfront +ip 85.234.148.33 -port 27036 -tickrate 30 +tv_port 27036 +exec server.cfg&  > /dev/null 2>&1
+cd ../
+./start.l4d > /dev/null > /dev/null 2>&1

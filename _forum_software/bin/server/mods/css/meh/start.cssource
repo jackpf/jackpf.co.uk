@@ -1,0 +1,1 @@
+./srcds_run -game cstrike +maxplayers 32 +map de_dust +ip 85.234.148.33 -port 27035 -tickrate 100 +tv_port 27036 +bot_join_after_player 1 +exec server.cfg -autoupdate&  > /dev/null 2>&1
